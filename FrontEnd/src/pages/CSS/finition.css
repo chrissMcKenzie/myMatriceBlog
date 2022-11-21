@@ -1,0 +1,14 @@
+/** FINITION
+* Ayez un perfect css grace bordures ci-dessous
+*/
+.Bordure_Rouge{
+    border: red solid 1px;
+} .Bordure_Orange{
+    border: orange solid 1px;
+} .Bordure_Jaune{
+    border: yellow solid 1px;
+} .Bordure_Vert{
+    border: green solid 1px;
+} .Bordure_Bleu{
+    border: blue solid 1px;
+}

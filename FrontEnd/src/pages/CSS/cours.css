@@ -1,0 +1,294 @@
+/** PRINICPALS */
+html{
+
+}
+
+body{
+    z-index: 0;
+    margin: 0px;
+    color: white;
+}
+
+header{
+    z-index: 100;
+    position: fixed;
+    top: 0%;
+    background-color: #1a1a1a;
+    width: 100%; height: 13%;
+}
+
+
+main{
+    z-index: 1;
+    margin-top: 90px;
+    margin-bottom: 125px;
+    width: 100%;
+    text-align: center;
+}
+
+
+footer{
+    /* position: fixed; bottom: 0%; */
+    background-color: #1a1a1a;
+    width: 100%; height: 25%;
+}
+
+
+/* Header */
+Header section{
+
+} Header div{
+    display: inline-block;
+    
+} Header nav{
+
+} Header ul{
+
+} Header li{
+    display: inline;
+} Header a{
+
+} Header img{
+
+}
+
+
+.BarreDeNavigation{
+    display: block;
+    margin-top: -105px;
+    margin-left: 250px;
+    padding-bottom: 50px;
+    width: 800px; height: 43px;
+    text-align: center;
+
+} .BarreDeNavigation nav{
+    /* display: block; */
+    margin: 15px 0px;
+    padding: 10px 0px;
+} .BarreDeNavigation ul {
+    margin: 5px;
+} .BarreDeNavigation a{
+    margin: 0.5px 0.5px;
+    padding: 20px 40px;
+    width: 90px;
+    font-size: 32px;
+    font-family: "Open Sans Bold", sans-serif;
+
+} .BarreDeNavigation a{
+    color: #a6a6a6;
+} .BarreDeNavigation a:hover{
+    background-color: #7ed957;
+    color: #fff;
+}
+
+.FrameworksCSS{
+    /* display: none; */
+    position: absolute;
+    top: 0px; right: 0px;
+
+} .FrameworksCSS div{
+    display: block;
+    margin: 1px 3px;
+}
+
+/** MAIN */
+main section{
+    margin: 0% 0%;
+    padding: 45px 0px;
+    width: 100%; height: 500px;
+    color: black;
+} main div{
+    display: inline-block;
+    margin: 0% 0%; padding: 0% 0%;
+    
+} main h1{
+    font-size: 32px;
+} main h2{
+    font-size: 23px;
+} main h3{
+    font-size: 18px;
+} main h4{
+    font-size: 16px;
+} main p{
+    font-size: 15px;
+} main button{
+    border-radius: 10px;
+    background-color: #1a1a1a;
+}
+
+section.Cours{
+    background-image: url("./../../media/images/background-green.jpeg");
+} .Cours div{
+    z-index: 10;
+    position: absolute;
+    margin: 0% 5%;
+    width: 500px;
+} .Cours div:first-child{
+    top: 35%;
+    left: 1%;
+    text-align: left;
+
+} .Cours div:nth-child(2){
+    margin-right: 0px;
+
+} .Cours .chat{
+    z-index: 15;
+    position: fixed; bottom: 80px; right: 0px;
+    padding: 0% 0%;
+    /* margin-left: 0px; margin-right: -25px; */
+    transform: rotate(-30deg);
+
+} .Cours div *{
+    padding: 3% 1%;
+} .Cours h1{
+    font-size: 37.5px;
+} .Cours p{
+    font-size: 20px;
+} .Cours button{
+    border-radius: 10px;
+    background-color: #1a1a1a;
+    width: 353px;
+    font-size: 16px;
+} .Cours a{
+    color: white;
+}
+
+section.NosCours{
+    overflow: hidden;
+    height: 900px;
+} .NosCours div{
+    margin: 0px 0%;
+    padding: 0% 0%;
+} .NosCours div:first-child{
+    display: block;
+} .NosCours div:nth-child(2) button{
+    border-radius: 10px;
+    background-color: #1a1a1a;
+    width: 150px;
+    font-size: 16px;
+} .NosCours div:last-child{
+    display: block;
+} .NosCours div:last-child div{
+    display: inline-block;
+} .NosCours h2{
+    font-size: 32px;
+} .NosCours article{
+    display: inline-block;
+    margin: 5px 0%;
+    border: grey solid 1px; border-radius: 10px;
+    padding: 0px 0px;
+    width: 300px; height: 350px;
+} .NosCours article *{
+    margin: 5px 0%;
+} .NosCours img{
+    margin: -1% 0%;
+    margin-bottom: 2%;
+    border-radius: 10px 10px 0px 0px;
+    width: 300px;
+} .NosCours a{
+    color: white;
+}
+
+section.Retours{
+    background-image: url("./../../media/images/background-blue.png");
+} .Retours div {
+
+} .Retours div:first-child{
+    display: block;
+} .Retours div:last-child{
+    display: inline;
+    width: 500px;
+} .Retours div:last-child article{
+    display: inline-block;
+    border-radius: 10px;
+    padding: 1% 1%;
+    background-color: white;
+    width: 225px; height: 250px;
+    text-align: left;
+} .Retours img{
+    display: inline;
+    border-radius: 50px;
+    /* float: left; */
+} .Retours p{
+    display: inline-block;
+    margin-left: 3%;
+    line-height: 23px;
+} .Retours h3{
+    margin-top: 2%;
+    line-height: 23px;
+}
+
+
+
+section.FAQ{
+    display: block;
+} .FAQ div{
+    display: block;
+    margin: 1% auto;
+    line-height: 23px;
+} .FAQ div *{
+    margin: 1%;
+    /* text-align: left; */
+
+}
+
+/** FOOT */
+footer section {
+    position: relative;
+    padding: 15px;
+    text-align: center;
+} footer div {
+    display: inline-block;
+    margin-right: 25px;
+
+} footer ul{
+
+} footer li{
+
+} footer a{
+    color: #a6a6a6;
+} footer img{
+
+}
+
+footer .Logo_MyBlog{
+    position: absolute; left: 5px; top: 7px;
+}
+
+.LiensUtils{
+    margin-left: 25px;
+} .LiensUtils:first-child{
+    position: absolute;
+    right: 0px;
+}
+
+
+.LiensUtils li{
+    margin-bottom: 7px;
+} .LiensUtils .left{
+    text-align: left;
+} .LiensUtils input{
+    margin-top: 5px;
+    margin-right: 15px;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 15px;
+    background-color: white;
+    width: 175px; height: 30px;
+    font-size: 20px;
+}
+
+.LiensUtils .Réseaux li:nth-child(2){
+    margin-left: 40px;
+} .LiensUtils .Réseaux li a{
+    margin-left: 15px;
+} .LiensUtils li span{
+    margin-left: 5px;
+    color:#a6a6a6;
+}  .LiensUtils button{
+    margin-top: -25px;
+    border-radius: 10px;
+    background-color: #ad97ef; color: white;
+    width: 150px; height: 50px;
+    font-size: 20px;
+}

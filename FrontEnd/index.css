@@ -1,0 +1,293 @@
+/** PRINICPALS */
+html{
+
+}
+
+body{
+    margin: 0px;
+    color: white;
+}
+
+header{
+    position: fixed;
+    top: 0%;
+    background-color: #1a1a1a;
+    width: 100%; height: 13%;
+}
+
+main{
+    margin-top: 90px;
+    margin-bottom: 125px;
+    width: 100%;
+    text-align: center;
+}
+
+footer{
+    /* position: fixed; bottom: 0%; */
+    background-color: #1a1a1a;
+    width: 100%; height: 25%;
+}
+
+
+/* Header */
+Header section{
+
+} Header div{
+    display: inline-block;   
+} Header nav{
+
+} Header ul{
+
+} Header li{
+
+} Header a{
+
+} Header img{
+
+}
+
+.BarreDeNavigation{
+    display: block;
+    margin-top: -105px;
+    margin-left: 250px;
+    padding-bottom: 50px;
+    width: 800px; height: 43px;
+    text-align: center;
+
+} .BarreDeNavigation nav{
+    /* display: block; */
+    margin: 15px 0px;
+    padding: 10px 0px;
+
+} .BarreDeNavigation ul {
+    margin: 5px;
+
+} .BarreDeNavigation li {
+
+} .BarreDeNavigation a{
+    margin: 0.5px 0.5px;
+    padding: 20px 40px;
+    /* border: orange solid 1px; */
+    width: 90px;
+    font-size: 32px;
+    font-family: "Open Sans Bold", sans-serif;
+    color: #a6a6a6;
+
+} .BarreDeNavigation a:hover{
+    background-color: #7ed957;
+    color: #fff;
+}
+
+.FrameworksCSS{
+    /* display: none; */
+    position: absolute;
+    top: 0px; right: 0px;
+} .FrameworksCSS div{
+    display: block;
+    margin: 1px 3px;
+}
+
+
+/* Main */
+
+
+section.Introduction {
+    padding: auto;
+    margin-top: -1%;
+    background-color: black; color: white;
+    width: 100%; height: 650px;
+
+} .Introduction div{
+    margin: 15px;
+
+} .Introduction div:first-child {
+    padding-top: 25px;
+
+} .Introduction div:nth-child(3) {
+    padding-top: 50px;
+
+} .Introduction h1{
+    font-size: 32px;
+
+} .Introduction h2{
+    margin: 35px;
+    font-size: 25px;
+
+} .Introduction button{
+    margin-top: 10px;
+    padding-top: -6px;
+    /* padding-bottom: 7px; */
+    border-radius: 40px;
+    background-color: white;
+    width: 465px; height: 90px;
+    font-size: 27px;
+
+} .Introduction button a{
+    margin-top: -6px;
+    margin-right: 0px;
+    color: black;
+    font-weight: bold;
+
+}  .Introduction button img{
+
+} .Introduction .chat{
+    z-index: 10;
+    position: fixed; bottom: 80px; right: 5px;
+    transform: rotate(-30deg);
+}
+
+
+section.Offre {
+    background-image: url("./src/media/images/background-blue.png"); color: white;
+    width: 100%; height: 500px;
+} .Offre div{
+    padding-top: 20px;
+} .Offre div:last-child{
+    margin: 15px auto;
+    background-color: #1a1a1a;
+    width: 650px; height: 275px;
+    text-align: left;
+    
+} .Offre div p{
+    background-color: black;
+    line-height: 20px;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    
+} .Offre div h4{
+    display: inline-block;
+} .Offre div span{
+    display: inline-block;
+    margin-right: 1%;
+} .Offre .bouton{
+    border-radius: 10px;
+} .Offre h2 {
+    padding-top: 30px;
+    font-size: 60px;
+}
+
+
+section.Abonnement {
+    padding-top: 2%;
+    background-color: white; color: black;
+    width: 100%; height: 500px;
+
+} .Abonnement h2 {
+    font-size: 60px;
+
+} .Abonnement div:first-child p {
+    margin-top: 25px;
+    font-size: 40px;
+
+} .Abonnement div button {
+    padding: 20px 3%;
+    background-color: #1a1a1a;
+    border-radius: 10%;
+} .Abonnement div button a {
+    color: white;
+    font-size: 20px;
+    
+} .Abonnement span {
+    margin: 1% 2.5%;
+    margin-bottom: 20px;
+    padding: 1% 2%;
+    background-color: red;
+    border-radius: 30%;
+
+} .Abonnement article {
+    display: inline-block;
+    margin: 20px 1%;
+    width: 425px; height: 100px;
+    border: black solid 1px;
+    border-radius: 5%;
+    box-shadow: 10px 5px 5px black;
+    text-align: left;
+
+} .Abonnement article div{
+    /* border: red solid 1px; */
+    height: 75px;
+} .Abonnement article p{
+    text-align: left;
+
+} .Abonnement article img{
+    margin: 1% 2%;
+    float: left;
+}
+
+section.Ressources {
+    background-image: url("./src/media/images/background-blue.png"); color: white;
+    width: 100%; height: 500px;
+
+} .Ressources div.small{
+    display: inline-block;
+}
+
+section.Blog {
+    background-color: #15171a; color: white;
+    width: 100%; height: 88%;
+}
+
+.FlecheGauche{
+    width: 25px;
+}
+
+
+/** FOOT */
+footer section {
+    position: relative;
+    padding: 15px;
+    text-align: center;
+} footer div {
+    display: inline-block;
+    margin-right: 25px;
+} footer ul{
+
+} footer li{
+
+} footer a{
+    color: #a6a6a6;
+} footer img{
+
+}
+
+footer .Logo_MyBlog{
+    position: absolute; left: 5px; top: 7px;
+}
+
+.LiensUtils{
+    margin-left: 25px;
+}
+
+.LiensUtils li{
+    margin-bottom: 7px;
+} .LiensUtils .left{
+    text-align: left;
+} .LiensUtils input{
+    margin-top: 5px;
+    margin-right: 15px;
+    padding-top: 5px;
+    padding-left: 15px;
+    background-color: white;
+    border-radius: 10px;
+    width: 175px; height: 30px;
+    font-size: 20px;
+
+}
+
+.LiensUtils:nth-child(1){
+    position: absolute;
+    right: 0px;
+} .LiensUtils .Réseaux li:nth-child(2){
+    margin-left: 40px;
+} .LiensUtils .Réseaux li a{
+    margin-left: 15px;
+} .LiensUtils li span{
+    margin-left: 5px;
+    color:#a6a6a6;
+}  .LiensUtils button{
+    margin-top: -25px;
+    border-radius: 10px;
+    background-color: #ad97ef; color: white;
+    width: 150px; height: 50px;
+    font-size: 20px;
+}
