@@ -1,3 +1,6 @@
+@import './initialisation.css';
+@import './finition.css';
+
 /** PRINICPALS */
 html{
 
@@ -62,11 +65,16 @@ Header section{
     text-align: center;
 
 } .BarreDeNavigation nav{
-    /* display: block; */
     margin: 15px 0px;
     padding: 10px 0px;
 } .BarreDeNavigation ul {
     margin: 5px;
+} .BarreDeNavigation li:first-child{
+    margin-right: 25%;
+} .BarreDeNavigation li:last-child{
+    margin-left: 15%;
+} .BarreDeNavigation li:last-child a{
+    border-radius: 10px;
 } .BarreDeNavigation a{
     margin: 0.5px 0.5px;
     padding: 20px 40px;
@@ -75,8 +83,6 @@ Header section{
     font-family: "Open Sans Bold", sans-serif;
 
 } .BarreDeNavigation a{
-    color: #a6a6a6;
-} .BarreDeNavigation a:hover{
     background-color: #7ed957;
     color: #fff;
 }
@@ -234,6 +240,7 @@ section.FAQ{
 
 /** FOOT */
 footer section {
+    z-index: 10;
     position: relative;
     padding: 15px;
     text-align: center;
@@ -252,6 +259,7 @@ footer section {
 }
 
 footer .Logo_MyBlog{
+    z-index: 15;
     position: absolute; left: 5px; top: 7px;
 }
 
@@ -291,4 +299,26 @@ footer .Logo_MyBlog{
     background-color: #ad97ef; color: white;
     width: 150px; height: 50px;
     font-size: 20px;
+}
+
+section.Connexion{
+    z-index: 100;
+    display: block;
+    margin: 7% auto 0%;
+    border: #1a1a1a solid 1px;
+    padding: 1% auto;
+    background-color: white;   
+    width: 700px; height: 500px;
+    color: black;
+    text-align: left;
+} .Connexion div{
+    margin: 4% auto;
+    padding: 1% 21%;
+
+} .Connexion h2{
+
+
+} .Connexion input{
+    display: inline-block;
+    width: 250px; height: 25px;
 }

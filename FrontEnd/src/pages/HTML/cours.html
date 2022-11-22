@@ -5,9 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>myMatriceBlog - Cours</title>
-    <link rel="stylesheet" href="./../CSS/initialisation.css">
     <link rel="stylesheet" href="./../CSS/cours.css" defer>
-    <link rel="stylesheet" href="./../CSS/finition.css">
 </head>
 <body>
     <header>
@@ -22,7 +20,7 @@
                             <a href="./cours.html">Cours</a>
                         </li>
                         <li>
-                            <a href="./connexion.html">Se Connecter</a>
+                            <a href="#">Se Connecter</a>
                         </li>
                     </ul>
                 </nav>
@@ -41,6 +39,25 @@
                     <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
                     <label class="form-check-label" for="flexSwitchCheckDefault">Light / Night</label>
                 </div>
+            </div>
+        </section>
+        <section class="Connexion">
+            <div><h2>Se Connecter</h2></div>
+            <div>
+                <form action="" method="post">
+                    <legend class="col-form-legend col-sm-1-12">Information de Connexion</legend>
+                    <div>
+                        <label for="inputEmail" class="col-sm-1-12 col-form-label"><h2>Email</h2></label>
+                        <input type="email" class="form-control" name="inputEmail" id="inputEmail" placeholder="e.g picard@startfleet.org">
+                    </div>
+                    <div>
+                        <label for="inputMotDePasse" class="col-sm-1-12 col-form-label"><h2>Mot de Passe</h2></label>
+                        <input type="password" class="form-control" name="inputMotDePasse" id="inputMotDePasse" placeholder="">
+                    </div>
+
+                    <button type="submit">Se Connecter</button>
+                    <p>Vous avez oubliez votre mot de passe ? <a href="./cours.html">Le réinitialiser</a></p>
+                </form>
             </div>
         </section>
     </header>
@@ -191,6 +208,7 @@
                     </p>
                 </div>
         </section>
+
     </main>
 
     <footer>

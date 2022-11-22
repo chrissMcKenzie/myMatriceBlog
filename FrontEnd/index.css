@@ -1,4 +1,11 @@
+@import './initialisation.css';
+@import './finition.css';
+
 /** PRINICPALS */
+:root{
+    --color-primary: white;
+}
+
 html{
 
 }
@@ -10,7 +17,7 @@ body, header, main, footer{
 body{
     margin: 0px;
     /* height: 100%; */
-    color: white;
+    color: var(--color-primary);
 }
 
 header{
@@ -98,7 +105,7 @@ Header section{
 section.Introduction {
     padding: auto;
     margin-top: -1%;
-    background-color: black; color: white;
+    background-color: black; color: var(--color-primary);
     width: 100%; height: 650px;
 
 } .Introduction div{
@@ -122,7 +129,7 @@ section.Introduction {
     padding-top: -6px;
     /* padding-bottom: 7px; */
     border-radius: 40px;
-    background-color: white;
+    background-color: var(--color-primary);
     width: 465px; height: 90px;
     font-size: 27px;
 
@@ -142,7 +149,7 @@ section.Introduction {
 
 
 section.Offre {
-    background-image: url("./src/media/images/background-blue.png"); color: white;
+    background-image: url("./src/media/images/background-blue.png"); color: var(--color-primary);
     width: 100%; height: 650px;
     overflow: hidden;
 } .Offre div{
@@ -162,7 +169,6 @@ section.Offre {
     background-color: black;
     font-family: "Monaco";
     line-height: 25px;
-    /* color: greenyellow; */
     color: rgb(97, 206, 97);
     
 } .Offre div h3{
@@ -210,7 +216,7 @@ section.Offre {
 
 section.Abonnement {
     padding-top: 2%;
-    background-color: white; color: black;
+    background-color: var(--color-primary); color: black;
     width: 100%; height: 500px;
 
 } .Abonnement h2 {
@@ -220,12 +226,15 @@ section.Abonnement {
     margin-top: 25px;
     font-size: 40px;
 
-} .Abonnement div button {
+} .Abonnement div:nth-child(3){
+    position: relative;
+
+}.Abonnement div button {
     padding: 20px 3%;
     background-color: #1a1a1a;
     border-radius: 10px;
 } .Abonnement div button a {
-    color: white;
+    color: var(--color-primary);
     font-size: 20px;
     
 } .Abonnement span {
@@ -236,16 +245,16 @@ section.Abonnement {
     border-radius: 10px;
 
 } .Abonnement article {
+    position: relative;
     display: inline-block;
     margin: 20px 1%;
     width: 425px; height: 100px;
     border: black solid 1px;
     border-radius: 5%;
-    box-shadow: 10px 5px 5px black;
+    box-shadow: 10px 5px 5px rgb(37, 35, 35);
     text-align: left;
 
 } .Abonnement article div{
-    /* border: red solid 1px; */
     height: 75px;
 } .Abonnement article p{
     text-align: left;
@@ -257,7 +266,7 @@ section.Abonnement {
 
 
 section.Ressources {
-    background-image: url("./src/media/images/background-blue.png"); color: white;
+    background-image: url("./src/media/images/background-blue.png"); color: var(--color-primary);
     width: 100%; height: 550px;
 
 } .Ressources div.small{
@@ -282,7 +291,7 @@ section.Ressources {
 .box {
     align-self: flex-end;
     animation-duration: 2s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 26;
     height: 200px;
     margin: 0 auto 0 auto;
     transform-origin: bottom;
@@ -313,7 +322,7 @@ section.Ressources {
 
 } @keyframes bounce-1 {
     0%   { transform: translateY(0); }
-    50%  { transform: translateY(-70px); }
+    50%  { transform: translateY(-60px); }
     100% { transform: translateY(0); }
 }
 
@@ -324,7 +333,7 @@ section.Blog {
     margin-bottom: 0px;
     padding-top: 3px;
     padding-bottom: 0px;
-    background-color: #15171a; color: white;
+    background-color: #15171a; color: var(--color-primary);
     width: 100%; height: 750px;
 } .Blog div{
     margin-top: 10px;
@@ -337,6 +346,10 @@ section.Blog {
 } .Blog div:last-child button{
     margin: 1%;
     width: 200px; height: 40px;
+} .Blog div:last-child a{
+    color: black;
+} .Blog div:last-child img{
+    padding-left: 3%;
 } .Blog small{
     display: block;
     font-size: 20px;
@@ -382,7 +395,7 @@ footer .Logo_MyBlog{
     margin-right: 15px;
     padding-top: 5px;
     padding-left: 15px;
-    background-color: white;
+    background-color: var(--color-primary);
     border-radius: 10px;
     width: 175px; height: 30px;
     font-size: 20px;
@@ -402,7 +415,7 @@ footer .Logo_MyBlog{
 }  .LiensUtils button{
     margin-top: -25px;
     border-radius: 10px;
-    background-color: #ad97ef; color: white;
+    background-color: #ad97ef; color: var(--color-primary);
     width: 150px; height: 50px;
     font-size: 20px;
 }
