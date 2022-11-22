@@ -1,5 +1,5 @@
-@import './initialisation.css';
-@import './finition.css';
+@import './src/pages/CSS/initialisation.css';
+@import './src/pages/CSS/finition.css';
 
 /** PRINICPALS */
 :root{
@@ -34,7 +34,7 @@ main{
 }
 
 footer{
-    /* position: fixed; bottom: 0%; */
+    margin: 0%;
     background-color: #1a1a1a;
     height: 25%;
 }

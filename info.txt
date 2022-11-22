@@ -10,6 +10,8 @@ https://librecours.net/module/js/js13/pres/co/dimensions.html?mode=html#:~:text=
 https://www.google.com/search?q=twitch+icon+png+grey&tbm=isch&ved=2ahUKEwj_hMb3_rL7AhXVtycCHdZ-DZ4Q2-cCegQIABAA&oq=twitch+icon+png+grey&gs_lcp=CgNpbWcQAzoGCAAQCBAeOgYIABAHEB46CAgAEAgQBxAeUL8JWOsSYKrYAWgAcAB4AIABR4gB7AKSAQE3mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=aP50Y_-wDNXvnsEP1v218Ak&bih=732&biw=1440#imgrc=9lnyqJD8yRNcHM
 
 
+https://alticreation.com/bem-pour-le-css/
+
 https://validator.w3.org/#validate_by_uri
 
 https://jigarius.com/blog/multiple-git-remote-repositories

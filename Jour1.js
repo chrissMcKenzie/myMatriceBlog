@@ -113,3 +113,45 @@ function TestPromise(promise) {
         return
     })
 }
+
+const bob = {
+    name: "bob",
+    age: 32,
+    sayHello(){
+        console.log(`Good morning, my name is ${this.name} and i ${this.age} years old`);
+    }
+}
+
+const alice = {
+    name: "alice",
+    age: 56.5,
+    sayHello(){
+        console.log(`Good morning, my name is ${this.name} and i ${this.age} years old`);
+    }
+}
+
+function personne(name, age) {
+    this.name = name
+    this.age = age
+
+    personne.prototype.sayHello = () => {
+        console.log(`Good morning, my name is ${this.name} and i ${this.age} years old`);
+    }
+    
+}; personne.prototype.sayHello = function() {
+    console.log(`Good morning, my name is ${this.name} and i ${this.age} years old`);
+}
+
+const ete = new personne("Bob", 45)
+ete.sayHello()
+
+class Bob{
+    constructor(name, age){
+        this.name = name
+        this.age = age
+    }
+
+    sayHello(){
+        console.log(`Good morning, my name is ${this.name} and i ${this.age} years old`);
+    }
+}

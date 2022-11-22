@@ -17,7 +17,7 @@ header{
     position: fixed;
     top: 0%;
     background-color: #1a1a1a;
-    width: 100%; height: 13%;
+    width: 100%; height: 14%;
 }
 
 
@@ -96,6 +96,57 @@ Header section{
     display: block;
     margin: 1px 3px;
 }
+
+
+#Connexion {
+    display: none;
+}
+
+section.Connexion{
+    z-index: 100;
+    display: block;
+    margin: 2% auto 0%;
+    border: #1a1a1a solid 1px;
+    padding: 1% auto;
+    background-color: white;
+    width: 700px; height: 500px;
+    color: black;
+    box-shadow: 10px 10px 5px;
+    text-align: center;
+
+} .Connexion div{
+    margin: 1%;
+    padding: 2%;
+    text-align: center;
+
+} .Connexion div.Title{
+    margin-left: 7%;
+    padding-left: 13%;
+
+} .Connexion span{
+    margin-left: 17%;
+    border-radius: 20px;
+    background-color: gray;
+    padding: 1% 1%;
+    width: 75px; height: 70px;
+
+} .Connexion h2{
+
+} .Connexion input{
+    display: block;
+    margin: 3% 0%;
+    padding: 1%;
+    width: 400px; height: 25px;
+
+} .Connexion button{
+    border-radius: 10px;
+    background-color: gray;
+    width: 400px; height: 35px;
+
+} .Connexion p{
+    margin-top: 2%;
+}
+
 
 /** MAIN */
 main section{
@@ -299,26 +350,4 @@ footer .Logo_MyBlog{
     background-color: #ad97ef; color: white;
     width: 150px; height: 50px;
     font-size: 20px;
-}
-
-section.Connexion{
-    z-index: 100;
-    display: block;
-    margin: 7% auto 0%;
-    border: #1a1a1a solid 1px;
-    padding: 1% auto;
-    background-color: white;   
-    width: 700px; height: 500px;
-    color: black;
-    text-align: left;
-} .Connexion div{
-    margin: 4% auto;
-    padding: 1% 21%;
-
-} .Connexion h2{
-
-
-} .Connexion input{
-    display: inline-block;
-    width: 250px; height: 25px;
 }
