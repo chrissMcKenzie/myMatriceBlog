@@ -3,8 +3,13 @@ html{
 
 }
 
+body, header, main, footer{
+    width: 100%;
+}
+
 body{
     margin: 0px;
+    /* height: 100%; */
     color: white;
 }
 
@@ -12,20 +17,19 @@ header{
     position: fixed;
     top: 0%;
     background-color: #1a1a1a;
-    width: 100%; height: 13%;
+    height: 13%;
 }
 
 main{
     margin-top: 90px;
     margin-bottom: 125px;
-    width: 100%;
     text-align: center;
 }
 
 footer{
     /* position: fixed; bottom: 0%; */
     background-color: #1a1a1a;
-    width: 100%; height: 25%;
+    height: 25%;
 }
 
 
@@ -139,31 +143,68 @@ section.Introduction {
 
 section.Offre {
     background-image: url("./src/media/images/background-blue.png"); color: white;
-    width: 100%; height: 500px;
+    width: 100%; height: 650px;
+    overflow: hidden;
 } .Offre div{
     padding-top: 20px;
 } .Offre div:last-child{
-    margin: 15px auto;
+    margin: 50px auto;
+    border-radius: 10px;
     background-color: #1a1a1a;
-    width: 650px; height: 275px;
+    width: 800px; height: 375px;
     text-align: left;
     
 } .Offre div p{
-    background-color: black;
-    line-height: 20px;
+    margin-left: 1%;
+    margin-top: 2%;
     padding-top: 1%;
     padding-bottom: 3%;
+    background-color: black;
+    font-family: "Monaco";
+    line-height: 25px;
+    /* color: greenyellow; */
+    color: rgb(97, 206, 97);
     
-} .Offre div h4{
+} .Offre div h3{
     display: inline-block;
+    margin-left: 1%;
+    padding-left: 2%;
 } .Offre div span{
     display: inline-block;
-    margin-right: 1%;
-} .Offre .bouton{
+    margin-left: 0%;
+
+} .Offre div span::before{
+    margin-left: 5%;
+
+}.Offre .bouton{
     border-radius: 10px;
-} .Offre h2 {
+} .Offre .Bouttons {
+    display: inline;
+    margin-left: 74%;
+    margin-bottom: 3%;
+
+}.Offre h2 {
     padding-top: 30px;
     font-size: 60px;
+}
+
+.réduire, .agrandir, .fermer{
+    border-radius: 20px;
+    background-color: grey;
+    width: 20px; height: 20px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.réduire:hover{
+    background-color: yellow;
+    color: black;
+} .agrandir:hover{
+    background-color: green;
+    color: black;
+} .fermer:hover{
+    background-color: red;
+    color: black;
 }
 
 
@@ -182,7 +223,7 @@ section.Abonnement {
 } .Abonnement div button {
     padding: 20px 3%;
     background-color: #1a1a1a;
-    border-radius: 10%;
+    border-radius: 10px;
 } .Abonnement div button a {
     color: white;
     font-size: 20px;
@@ -192,7 +233,7 @@ section.Abonnement {
     margin-bottom: 20px;
     padding: 1% 2%;
     background-color: red;
-    border-radius: 30%;
+    border-radius: 10px;
 
 } .Abonnement article {
     display: inline-block;
@@ -214,18 +255,92 @@ section.Abonnement {
     float: left;
 }
 
+
 section.Ressources {
     background-image: url("./src/media/images/background-blue.png"); color: white;
-    width: 100%; height: 500px;
+    width: 100%; height: 550px;
 
 } .Ressources div.small{
+    z-index:0;
     display: inline-block;
+    width: 200px;
+} .Ressources div:first-child{
+    margin-top: 0%;
+    margin-bottom: 5%;
+    padding-top: 5%;
+} .Ressources h2{
+    font-size: 64px;
+}  .Ressources p{
+    font-size: 30px;
+} .Ressources h3{
+    font-size: 29px;
+    font-weight:100;
+} .Ressources small{
+    font-style: italic;
 }
 
-section.Blog {
-    background-color: #15171a; color: white;
-    width: 100%; height: 88%;
+.box {
+    align-self: flex-end;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    height: 200px;
+    margin: 0 auto 0 auto;
+    transform-origin: bottom;
+    width: 200px;
+} .box2 {
+    z-index: 1;
+    align-self: flex-end;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    height: 125px;
+    margin: 0 auto 0 auto;
+    transform-origin: bottom;
+    width: 125px;
+} .box3 {
+    z-index: 1;
+    align-self: flex-end;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    height: 90px;
+    margin: 0 auto 0 auto;
+    transform-origin: bottom;
+    width: 90px;
 }
+
+.bounce-1 {
+    animation-name: bounce-1;
+    animation-timing-function: linear;
+
+} @keyframes bounce-1 {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-70px); }
+    100% { transform: translateY(0); }
+}
+
+
+
+section.Blog {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 3px;
+    padding-bottom: 0px;
+    background-color: #15171a; color: white;
+    width: 100%; height: 750px;
+} .Blog div{
+    margin-top: 10px;
+} .Blog div:first-child{
+    padding: 25px;
+} .Blog div h2{
+    font-size: 64px;
+} .Blog div p{
+    font-size: 25px;
+} .Blog div:last-child button{
+    margin: 1%;
+    width: 200px; height: 40px;
+} .Blog small{
+    display: block;
+    font-size: 20px;
+} 
 
 .FlecheGauche{
     width: 25px;

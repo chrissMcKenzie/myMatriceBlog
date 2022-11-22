@@ -11,7 +11,7 @@
 
 </head>
 <body>
-    <header>
+    <header id="header">
         <section>
             <div class="Logo_MyBlog">
                 <a href="./index.html"><img src="./src/media/images/myBlog.png" height="25%" width="9%" alt="myBlog - Logo"></a>
@@ -31,16 +31,16 @@
             <div class="FrameworksCSS">
                 <!-- Default checked -->
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1"> Bootstrap </label>
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="Bootstrap">
+                    <label class="form-check-label" for="Bootstrap">Bootstrap</label>
                   </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                    <label class="form-check-label" for="flexRadioDefault2"> Materialize </label>
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="Materialize" checked>
+                    <label class="form-check-label" for="Materialize">Materialize</label>
                 </div>
                 <div class="form-check form-switch">
-                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-                    <label class="form-check-label" for="flexSwitchCheckDefault">Light / Night</label>
+                    <input class="form-check-input" type="checkbox" role="switch" id="SwitchLight">
+                    <label class="form-check-label" for="SwitchLight">Light / Night</label>
                 </div>
             </div>
         </section>
@@ -57,32 +57,37 @@
                 <button><a href="./src/pages/HTML/cours.html">Découvrez nos cours <img src="./src/media/images/red briefcase.png" title="briefcase icons" width="30px" /></a></button>
             </div>
             <div>
-                <img src="./src/media/images/white down-arrow.png" width="60px" alt="">
+                <img class="box3 bounce-1" src="./src/media/images/white down-arrow.png" width="60px" alt="">
             </div>
             <div class="chat">
-                <img src="./src/media/images/icon-chat.png" width="90px" alt=""/>
+                <img class="box2 bounce-1" src="./src/media/images/icon-chat.png" width="60px" alt=""/>
             </div>
         </section>
 
         <section class="Offre">
             <div>
-                <h2>Apprendre, découvrir, expérimenter.</h2>
+                <h2><b id="Apprendre">Apprendre</b>, <b id="Découvrir">découvrir</b>, <b id="Expérimenter">expérimenter</b>.</h2>
             </div>
-            <div>
-                <h4>Terminal</h4>
-                <span class="boutton réduire">_</span>
-                <span class="boutton agrandir">[ ]</span>
-                <span class="boutton fermer">X</span>
-                <p>
-                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, eius cum. Ut <br>
-                   voluptatem et ab itaque, laborum, quisquam corrupti consequatur eos blanditiis illo <br>
+            <div id="Terminal">
+                <h3>Terminal</h3>
+                <div id="Bouttons" class="Bouttons">
+                    <span id="Réduire" class="boutton réduire">_</span>
+                    <span id="Agrandir" class="boutton agrandir">[ ]</span>
+                    <span id="X" class="boutton fermer">X</span>
+                </div>
+                <p id="Paragraphe">
+                   <span style="color: lightskyblue;">myMatriceBlog <b style="color: blue;">git:(<span style="color: red;">main</span>)</b></span>
+                   <strong style="color: yellow;">#=> Welcome To The chrissMcKenzie Terminal !!!</strong> <br>
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, eius cum. Ut
+                   voluptatem et ab itaque, laborum, quisquam corrupti consequatur eos blanditiis illo
                    nulla molestias incidunt mollitia modi exercitationem reiciendis.
                 <br> <br>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa dolorum possimus <br>
-                    deserunt, accusantium nesciunt mollitia nisi ipsam modi iusto velit delectus maxime, <br>
-                    unde quidem in cum. Voluptate quaerat placeat necessitatibus. Lorem ipsum dolor sit amet <br>
-                    consectetur adipisicing elit. Reiciendis culpa corporis est. Ullam velit ipsam doloremque, <br>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa dolorum possimus
+                    deserunt, accusantium nesciunt mollitia nisi ipsam modi iusto velit delectus maxime,
+                    unde quidem in cum. Voluptate quaerat placeat necessitatibus. Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Reiciendis culpa corporis est. Ullam velit ipsam doloremque,
                     cumque a, quos saepe sapiente minus fuga quod officiis expedita id perspiciatis unde cum!
+                    <input type="text" id="UserInput">
                 </p>
             </div>
         </section>
@@ -134,63 +139,60 @@
         </section>
 
         <section class="Ressources">
-            <!-- <div> -->
                 <div>
                     <h2>Les Ressources</h2>
-                    <h4>Gratuites</h4>
+                    <p>Gratuites</p>
                 </div>
 
                 <div class="small">
-                    <img src="" alt="">
-                    <h4>Newsletter &gt;</h4>
+                    <img class="box bounce-1" src="./src/media/images/newsletter.png" width="150px" alt="">
+                    <h3>Newsletter &gt;</h3>
                     <small>Tout les semaines</small>
                 </div>
                 <div class="small">
-                    <img src="" alt="">
-                    <h4>Blog &gt;</h4>
+                    <img class="box bounce-1" src="./src/media/images/blog black.png" width="145px" alt="">
+                    <h3>Blog &gt;</h3>
                     <small>350+ articles</small>
                 </div>
                 <div class="small">
-                    <img src="" alt="">
-                    <h4>Postcasts &gt;</h4>
+                    <img class="box bounce-1" src="./src/media/images/podcast-icon-white.png" width="150px">
+                    <h3>Postcasts &gt;</h3>
                     <small>30+ épisodes</small>
                 </div>
                 <div class="small">
-                    <img src="" alt="">
-                    <h4>Vidéos &gt;</h4>
+                    <img class="box bounce-1" src="./src/media/images/video.png" width="150px" alt="">
+                    <h3>Vidéos &gt;</h3>
                     <small>Découvrez Codeflix</small>
                 </div>
-            <!-- </div> -->
         </section>
 
         <section class="Blog">
             <div>
-                <h3>Le Blog</h3>
-                <img src="" alt="">
+                <h2>Le Blog</h2>
+                <img src="./src/media/images/blog black.png" width="90px;" alt="">
             </div>
+            <hr>
             <div>
                 <button id="FlecheGauche"><img src="./src/media/images/left-arrow.png" width="80px;" alt=""></button>
-                    <img id="irest" src="./src/media/images/rest.png" alt="">
-                    <img id="ipipeline" src="./src/media/images/pipeline.png" alt="">
-                    <img id="iindex" src="./src/media/images/index.png" alt="">
+                <img id="irest" src="./src/media/images/rest.png" width="450vw;" alt="">
                 <button id="FlecheDroite"><img src="./src/media/images/right-arrow.png" width="80px;" alt=""></button>
             </div>
             <div>
                 <p>
-                    Découvrir de nouveaus sujets, de nouvelles technologies, mettre en place une <br>
+                    Découvrir de nouveaux sujets, de nouvelles technologies, mettre en place une <br>
                     veille et s'améliorer de jour en jour ne devrait être ni compliqué, ni payant.
                     <br><br>
                     Voilà pourquoi notre blog est mise à jour chaque semaine!
                 </p>
             </div>
             <div>
-                <button><h4><a href="">Lire le blog <img src="" alt=""></a></h4></button>
+                <button><h3><a href="">Lire le blog <img src="" alt=""></a></h3></button>
                 <small>+ de 12 000 lecteurs/mois</small>
             </div>
         </section>
     </main>
 
-    <footer>
+    <footer id="footer">
         <section>
             <div class="Logo_MyBlog">
                 <a href="#"><img src="./src/media/images/myBlog.png" height="150px" width="160px" alt="myBlog - Logo"></a>
