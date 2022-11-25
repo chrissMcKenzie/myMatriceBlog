@@ -21,6 +21,7 @@ body{
 }
 
 header{
+    z-index: 10;
     position: fixed;
     top: 0%;
     background-color: #1a1a1a;
@@ -215,6 +216,7 @@ section.Offre {
 
 
 section.Abonnement {
+    z-index: 1;
     padding-top: 2%;
     background-color: var(--color-primary); color: black;
     width: 100%; height: 500px;
@@ -238,6 +240,7 @@ section.Abonnement {
     font-size: 20px;
     
 } .Abonnement span {
+    z-index: 2;
     margin: 1% 2.5%;
     margin-bottom: 20px;
     padding: 1% 2%;
@@ -260,6 +263,7 @@ section.Abonnement {
     text-align: left;
 
 } .Abonnement article img{
+    z-index: 2;
     margin: 1% 2%;
     float: left;
 }

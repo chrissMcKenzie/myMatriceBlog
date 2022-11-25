@@ -97,8 +97,41 @@ UserInput.onkeypress = (event)=>{
 }
 
 
+// Terminal.onmousedown = function(event) {
+//     let shiftX = event.clientX - Terminal.getBoundingClientRect().left;
+//     let shiftY = event.clientY - Terminal.getBoundingClientRect().top;
+//     Terminal.style.position = 'absolute';
+//     Terminal.style.zIndex = 1000;
+  
+//     moveAt(event.pageX, event.pageY);
+  
+//     // Déplace la Terminale aux cordonnées (pageX, pageY)
+//     // Prenant en compte les changements initiaux
+//     function moveAt(pageX, pageY) {
+//       Terminal.style.left = pageX - shiftX + 'px';
+//       Terminal.style.top = pageY - shiftY + 'px';
+//     }
+  
+//     function onMouseMove(event) {
+//       moveAt(event.pageX, event.pageY);
+//     }
+  
+//         // déplace la Terminale à l’évènement mousemove
+//         document.addEventListener('mousemove', onMouseMove);
+    
+//         // dépose la Terminale, enlève les gestionnaires d’évènements dont on a pas besoin
+//         Terminal.onmouseup = function() {
+//         document.removeEventListener('mousemove', onMouseMove);
+//         //   Terminal.onmouseup = null;
+//         };
+  
+// };
+  
+Terminal.ondragstart = function() {
+    return false;
+};
 
-
+  
 const SlideImages = [
     "./src/media/images/rest.png",
     "./src/media/images/pipeline.png",

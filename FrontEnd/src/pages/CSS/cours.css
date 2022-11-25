@@ -212,7 +212,7 @@ section.Cours{
 
 section.NosCours{
     overflow: hidden;
-    height: 900px;
+    height: 950px;
 } .NosCours div{
     margin: 0px 0%;
     padding: 0% 0%;
@@ -223,20 +223,33 @@ section.NosCours{
     background-color: #1a1a1a;
     width: 150px;
     font-size: 16px;
+} .NosCours div:nth-child(3){
+    display: block;
+} .NosCours div:nth-child(3) article{
+    display: inline-block;
+    width: 250px; height: 300px;
+}  .NosCours div:nth-child(3) article *{
+    width: 250px;
+} .NosCours div:nth-child(3) article button{
+    width: 150px;
 } .NosCours div:last-child{
     display: block;
 } .NosCours div:last-child div{
     display: inline-block;
 } .NosCours h2{
-    font-size: 32px;
+    font-size: 52px;
+} .NosCours article *{
+    margin: 5px 0%;
 } .NosCours article{
     display: inline-block;
     margin: 5px 0%;
     border: grey solid 1px; border-radius: 10px;
     padding: 0px 0px;
-    width: 300px; height: 350px;
-} .NosCours article *{
-    margin: 5px 0%;
+    width: 300px; height: 450px;
+} .NosCours article button{
+    height: 50px;
+} .NosCours article:hover {
+    border: 7px solid black;
 } .NosCours img{
     margin: -1% 0%;
     margin-bottom: 2%;
@@ -258,6 +271,7 @@ section.Retours{
 } .Retours div:last-child article{
     display: inline-block;
     border-radius: 10px;
+    margin-top: 3%;
     padding: 1% 1%;
     background-color: white;
     width: 225px; height: 250px;
@@ -267,12 +281,18 @@ section.Retours{
     border-radius: 50px;
     /* float: left; */
 } .Retours p{
-    display: inline-block;
+    display: inline;
     margin-left: 3%;
     line-height: 23px;
+} .Retours h2{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 3%;
 } .Retours h3{
-    margin-top: 2%;
+    margin-top: 4%;
     line-height: 23px;
+} .Retours button{
+    height: 50px;
 }
 
 

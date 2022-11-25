@@ -1,0 +1,37 @@
+Emmet (header>section>h1+div>h2)+(main>section>h1+div>h2)+(footer>section>h1+div>h2)
+[Media Queries] => https://www.alsacreations.com/article/lire/930-css3-media-queries.html#:~:text=La%20sp%C3%A9cification%20CSS3%20Media%20Queries,%C3%A0%20l'aide%20de%20CSS.
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
+
+https://gitlab.matrice.io/immersion-js-d01-877/bjeaffy-immersion-js-d01
+https://gitlab.matrice.io/immersion-js-d02-878/bjeaffy-immersion-js-d02
+https://gitlab.matrice.io/immersion-js-d03-879/bjeaffy-immersion-js-d03
+
+https://waytolearnx.com/2019/06/comment-creer-un-tableau-2d-en-javascript.html
+
+https://waytolearnx.com/2019/07/qcm-html-css-partie-1.html
+
+https://librecours.net/module/js/js13/pres/co/dimensions.html?mode=html#:~:text=Un%20tableau%20en%202%20dimensions,%2C%20%5Bc1%2C%20c2%5D%5D%20.
+https://www.google.com/search?q=twitch+icon+png+grey&tbm=isch&ved=2ahUKEwj_hMb3_rL7AhXVtycCHdZ-DZ4Q2-cCegQIABAA&oq=twitch+icon+png+grey&gs_lcp=CgNpbWcQAzoGCAAQCBAeOgYIABAHEB46CAgAEAgQBxAeUL8JWOsSYKrYAWgAcAB4AIABR4gB7AKSAQE3mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=aP50Y_-wDNXvnsEP1v218Ak&bih=732&biw=1440#imgrc=9lnyqJD8yRNcHM
+
+
+https://alticreation.com/bem-pour-le-css/
+
+https://validator.w3.org/#validate_by_uri
+
+https://jigarius.com/blog/multiple-git-remote-repositories
+
+HTML a été proposé pour la première fois l’année 1990 par Tim Berners-Lee
+XHTML signifie EXtensible HyperText Markup Language, basé sur XML, est plus strict que HTML, et est supporté par presque tous les navigateurs Web.

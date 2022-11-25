@@ -1,17 +1,13 @@
-SeConnecter.onclick = ()=>{
-    if(Connexion.style.display === "block"){
-        Connexion.style.display = "none"
-        Connexion.style.visibility = "hidden"
-    }
+ConnexionForm.style.display = "none"
+ConnexionForm.style.visibility = "hidden"
 
-    if(Connexion.style.display === "none"){
-        Connexion.style.display = "block"
-        Connexion.style.visibility = "visible"
-    }
+SeConnecter.onclick =() =>{
+    ConnexionForm.style.display = "block"
+    ConnexionForm.style.visibility = "visible"
 
 }; FormulaireConnexion.onclick = ()=>{
-    Connexion.style.display = "none"
-    Connexion.style.visibility = "hidden"
+    ConnexionForm.style.display = "none"
+    ConnexionForm.style.visibility = "hidden"
 }
 
 const articles = [
